@@ -1,0 +1,9 @@
+STAGING_DIR := /home/jacky/mt7620/staging_dir
+TOOLCHAIN_DIR := $(STAGING_DIR)/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin
+TARGET_DIR := $(STAGING_DIR)/target-mipsel_24kec+dsp_uClibc-0.9.33.2
+CC := $(TOOLCHAIN_DIR)/mipsel-openwrt-linux-gcc
+AR := $(TOOLCHAIN_DIR)/mipsel-openwrt-linux-ar
+STRIP := $(TOOLCHAIN_DIR)/mipsel-openwrt-linux-strip
+INCLUDE_DIR := $(TARGET_DIR)/usr/include
+LIBRARY_DIR1 := $(TARGET_DIR)/usr/lib
+LIBRARY_DIR2 := $(TARGET_DIR)/lib

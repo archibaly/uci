@@ -1,4 +1,4 @@
-include ../Makefile.in
+include Makefile.in
 
 EXE := uci_api
 CFLAGS := -Wall -I$(INCLUDE_DIR)
